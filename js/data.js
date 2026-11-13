@@ -36,12 +36,10 @@ const SERVICES = [
 ];
 
 const GALLERY = [
-  { name: "Soft Pink Almond", style: "linear-gradient(135deg,#f6d5dd,#e8a7b8)" },
-  { name: "French Classic", style: "linear-gradient(135deg,#fdf3ec,#ecd9c8)" },
-  { name: "Cherry Red Square", style: "linear-gradient(135deg,#d96a76,#a93444)" },
-  { name: "Sage and Gold Foil", style: "linear-gradient(135deg,#cdd8c3,#93a983)" },
-  { name: "Lavender Ombre", style: "linear-gradient(135deg,#e3d8f2,#b49ad9)" },
-  { name: "Nude Minimal Lines", style: "linear-gradient(135deg,#f1e4d8,#cbb39d)" }
+  { name: "Soft Pink Almond", img: "assets/img/nails-pink.jpg", alt: "Hand with soft pink almond shaped nails" },
+  { name: "French Classic", img: "assets/img/nails-french.jpg", alt: "Hand with a classic french manicure" },
+  { name: "Cherry Red Square", img: "assets/img/nails-cherry.jpg", alt: "Hand with glossy cherry red square nails" },
+  { name: "Lavender Ombre", img: "assets/img/nails-lavender.jpg", alt: "Hand with lavender ombre almond nails" }
 ];
 
 const REVIEWS = [
