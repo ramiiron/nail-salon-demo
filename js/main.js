@@ -25,5 +25,17 @@ document.addEventListener("DOMContentLoaded", function () {
   nav.querySelectorAll("a").forEach(function (a) {
     a.addEventListener("click", function () { nav.classList.remove("open"); });
   });
+  document.addEventListener("click", function (event) {
+    if (nav.classList.contains("open") && !nav.contains(event.target) && !toggle.contains(event.target)) {
+      nav.classList.remove("open");
+      toggle.setAttribute("aria-expanded", "false");
+    }
+  });
+  document.addEventListener("keydown", function (event) {
+    if (event.key === "Escape") {
+      nav.classList.remove("open");
+      toggle.setAttribute("aria-expanded", "false");
+    }
+  });
   document.getElementById("year").textContent = new Date().getFullYear();
 });
