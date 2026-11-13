@@ -26,15 +26,6 @@ h1, h2, h3, .brand { font-family: "Fraunces", Georgia, serif; }
 
 .container { max-width: 1120px; margin: 0 auto; padding: 0 20px; }
 
-.demo-banner {
-  background: var(--ink);
-  color: #fdf9f6;
-  text-align: center;
-  font-size: 13px;
-  padding: 8px 16px;
-  letter-spacing: 0.04em;
-}
-
 .site-header {
   position: sticky; top: 0; z-index: 20;
   background: rgba(253, 249, 246, 0.94);
