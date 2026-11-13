@@ -7,11 +7,15 @@ and portfolio project to show how a small salon website would work.
 ## What it includes
 
 - Services and price list, rendered from data
-- Design gallery with placeholder tiles
+- Full width hero photo of the salon, with a rating badge
+- Design gallery with generated photos of real looking nail designs
 - About section with hours and location
 - Sample guest reviews
 - Booking form with price and duration estimate, which prepares a booking
   message for WhatsApp (demo number, a sample 555 line)
+- Version 2 visual upgrade: Fraunces and Jost typography, reveal on scroll
+  animations, hover effects and a sticky booking button on mobile.
+  Images live in `assets/img/` and are generated demo artwork
 
 ## Structure
 
