@@ -26,7 +26,7 @@ function renderServices() {
 function renderGallery() {
   const grid = document.getElementById("galleryGrid");
   grid.innerHTML = GALLERY.map(function (g) {
-    return '<figure class="gallery-tile" style="background:' + g.style + '">' +
+    return '<figure class="gallery-tile"><img src="' + g.img + '" alt="' + g.alt + '" loading="lazy">' +
       "<figcaption>" + g.name + "</figcaption></figure>";
   }).join("");
 }
